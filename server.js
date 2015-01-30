@@ -13,6 +13,7 @@ var
 app.listen(config.port, function() {
     console.log('HTTP Server running on port: ' + config.port);
     console.log('Running in environment: ' + process.env.NODE_ENV);
+    console.log('Connecting to DB: ' + process.env.MONGOLAB_URI);
 });
 
 module.exports = app;
