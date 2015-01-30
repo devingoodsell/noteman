@@ -3,6 +3,7 @@
 
 module.exports = {
   db:       process.env.MONGOLAB_URI,
+  port:     80,
   logLevel: "error",
   mailChimp: {
     key: process.env.CHIMP_KEY,
